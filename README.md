@@ -31,4 +31,6 @@ Random comments/thoughts:
   7. I did not work on Dygie++. However, I think performance on it can be improved if we perform an event extraction task on it (instead of NER). It should be feasible now, at least with MUC, now that we have triggers labeled.
 
 
+Final note on running MUC on TANL: I removed the templates that had one of those rare event types (like forced work stoppage)
+
 If you have any questions, feel free to email me: zc272@cornell.edu
