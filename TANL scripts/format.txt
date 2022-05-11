@@ -1,0 +1,30 @@
+Conll04:
+{"tokens": ["John", "Wilkes", "Booth", ",", "who", "assassinated", "President", "Lincoln", ",", "was", "an", "actor", "."], 
+"entities": [{"type": "Peop", "start": 0, "end": 3}, {"type": "Peop", "start": 6, "end": 8}], 
+"relations": [{"type": "Kill", "head": 0, "tail": 1}], "orig_id": 5178}
+
+ADE:
+{"tokens": ["We", "conclude", "that", "(", "a", ")", "cyclophosphamide", "is", "a", "human", "teratogen", ",", "(", "b", ")", "a", "distinct", "phenotype", "exists", ",", "and", "(", "c", ")", "the", "safety", "of", "CP", "in", "pregnancy", "is", "in", "serious", "question", "."],
+ "entities": [{"type": "Adverse-Effect", "start": 9, "end": 11}, {"type": "Drug", "start": 6, "end": 7}],
+ "relations": [{"type": "Adverse-Effect", "head": 0, "tail": 1}], "orig_id": 83}, 
+
+NYT:
+{"tokens": ["In", "Queens", ",", "North", "Shore", "Towers", ",", "near", "the", "Nassau", "border", ",", "supplanted", "a", "golf", "course", ",", "and", "housing", "replaced", "a", "gravel", "quarry", "in", "Douglaston", "."],
+ "spo_list": [["Douglaston", "/location/neighborhood/neighborhood_of", "Queens"], ["Queens", "/location/location/contains", "Douglaston"]],
+ "spo_details": [[24, 25, "LOCATION", "/location/neighborhood/neighborhood_of", 1, 2, "LOCATION"], [1, 2, "LOCATION", "/location/location/contains", 24, 25, "LOCATION"]],
+ "pos_tags": ["IN", "NNP", ",", "NNP", "NNP", "NNP", ",", "IN", "DT", "NNP", "NN", ",", "VBD", "DT", "NN", "NN", ",", "CC", "NN", "VBD", "DT", "NN", "NN", "IN", "NNP", "."]}
+
+MUC:
+"templates": [{"incident_type": "kidnapping",
+ "PerpInd": [[["terrorists", 102]]],
+ "PerpOrg": [[["farabundo marti national liberation front", 120], ["fmln", 163]]],
+ "Target": [],
+ "Victim": [],
+ "Weapon": []},
+ 
+{"incident_type": "attack",
+ "PerpInd": [[["terrorist", 102]]],
+ "PerpOrg": [],
+ "Target": [[["las canas bridge", 1774]]],
+ "Victim": [],
+ "Weapon": [[["rifle", 1322]], [["mortar", 1940]]]}]}
